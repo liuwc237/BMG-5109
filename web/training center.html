@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Training Center</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a60e66df86.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="http://e-hospital.ca/" class="btn">e-Hospital</a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+            <ul>
+                <form class="searchbox" action="https://www.google.com/search">
+                    <input type="text" name="q" placeholder="Search e-Hospital">
+                    <button type="submit"><i class="fa-brands fa-searchengin fa-2xl"></i></button>
+                </form>
+                <li><a href="">Training Center</a>
+                    <div class="submenu-1">
+                        <ul>
+                            <li><a href="">Future Career</a></li>
+                            <li><a href="">Facility</a></li>
+                            <li><a href="">Trainer</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="">More Tutorials</a>
+                    <div class="submenu-2">
+                        <ul>
+                            <li><a href="">Endoscope</a></li>
+                            <li><a href="">Dissector</a></li>
+                            <li><a href="">Retractor</a></li>
+                            <li><a href="">More</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="">Support</a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+    </nav>
+    <div class="introduction">
+        <h1>Gallstone surgical instrument</h1>
+        <img src="images/scoop.jpg">
+        <p>Throughout the Western community, gallstones are a typical medical
+          finding. Gallstone surgical instruments make it possible to
+          effectively examine and extract gallstones from tubular channels.
+          An elastic rod with a round handle and a scrape at the lower
+          edge identifies as a gallstone surgical device. The sizes range from
+          micro to big to cover a wide range of cases.<br><br><a href="#">Click here to learn more</a>
+        </p>
+    </div>
+</section>
+<section class="content">
+    <h1>Instruction</h1>
+    <div class="instruction">
+        <div class="instruction-column">
+            <h3>Step 1</h3>
+            <img src="images/step1.png">
+            <p>Insert the scoop into patient's gallblader through the incision.</p>
+        </div>
+        <div class="instruction-column">
+            <h3>Step 2</h3>
+            <img src="images/step2.png">
+            <p>Carefully place the gallstone in the groove on the tip of the scoop.</p>
+        </div>
+        <div class="instruction-column">
+            <h3>Step 3</h3>
+            <img src="images/step3.png">
+            <p>Remove the gallstone from patient's gallblader using the scoop.</p>
+        </div>
+  </div>
+</section>
+<section class="video">
+    <h1>Video Instruction</h1>
+    <video controls>
+        <source src="images/video.mp4" type="video/mp4">
+    </video>
+    <p>Still have questions? <a href="#">Click here</a> to contact our trainers.</p>
+    <div class="icon">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-youtube"></i>
+    <i class="fa-brands fa-linkedin"></i>
+    <p>Copyright © <a href="http://e-hospital.ca/">eHospital</a> 2022.</p>
+    </div>
+</section>
+<script type="text/javascript">
+    var navlinks = document.getElementById("navlinks");
+    function showmenu(){
+        navlinks.style.right = "0";
+    }
+    function hidemenu(){
+        navlinks.style.right = "-180px";
+    }
+</script>
+</body>
+</html>
